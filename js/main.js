@@ -8,9 +8,9 @@ const plays = {
 };
 
 const score = { 
-	'player': 0, 
-	'computer': 0,
-	'tie': 0
+	'Player': 0, 
+	'Computer': 0,
+	'Tie': 0
 };
 
 const x = [];
@@ -45,7 +45,7 @@ const play = function(player){
 		}
 	}
 	const win = plays[player+computer];
-	lastWinner = player === computer || win === undefined ? 'tie' : win === player ? 'player' : 'computer';
+	lastWinner = player === computer || win === undefined ? 'Tie' : win === player ? 'Player' : 'Computer';
 	score[lastWinner]++;
 	updateScore(player, computer, lastWinner);
 	lastMove = move;
