@@ -9,9 +9,7 @@
 
 → [Swasti Srivastava](https://github.com/Swasti-23) : 221020452
 
-Play it [here](https://victorribeiro.com/jokenpo)
-
-Alternative link [here](https://victorqribeiro.github.io/jokenpo/index.html)
+Play it [here](https://kanika07.netlify.app/)
 
 ## About
 
